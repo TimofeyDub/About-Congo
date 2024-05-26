@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: url('https://triplook.me/media/countries/photo/0/e/u2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+.nav {
+    display: flex;
+    background-color: black;
+    padding: 2px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.home {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+    text-shadow: 0px 0px 15px #000;
+}
+
+.about {
+    opacity: 80%;
+    text-align: center;
+    width: 100%;
+    background-color: #000;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.img-1 {
+    text-align: center;
+    width: 400px;
+    height: 200px;
+}
+
+.img-2 {
+    width: 200px;
+    height: 200px;
+}
+
+.btn {
+    color: #fff;
+    border: solid 0;
+    border-radius: 20px;
+    background-color: rgb(15, 99, 0);
+    scale: 3;
+    cursor: pointer;
+    transition: 1000ms;
+}
+
+.btn:hover {
+    background-color: rgb(255, 255, 255);
+    scale: 6;
+    color: #000;
+    box-shadow: 0 0 20px green;
+}
+
+@media (max-width: 768px) {
+    .navbar a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+}
